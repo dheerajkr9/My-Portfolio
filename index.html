@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dheeraj Kumar | Portfolio</title>
+    <meta name="description" content="Dheeraj Kumar — B.Tech Student & Aspiring Software Engineer. Portfolio showcasing projects, skills, and achievements.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════════════
+         FLOATING NAVIGATION
+    ═══════════════════════════════════════════ -->
+    <nav id="floating-nav" class="floating-nav">
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#hero" data-tooltip="Home"><i class="fas fa-home"></i></a></li>
+            <li><a href="#about" data-tooltip="About"><i class="fas fa-user"></i></a></li>
+            <li><a href="#skills" data-tooltip="Skills"><i class="fas fa-code"></i></a></li>
+            <li><a href="#projects" data-tooltip="Projects"><i class="fas fa-folder-open"></i></a></li>
+            <li><a href="#education" data-tooltip="Education"><i class="fas fa-graduation-cap"></i></a></li>
+            <li><a href="#achievements" data-tooltip="Achievements"><i class="fas fa-trophy"></i></a></li>
+            <li><a href="#contact" data-tooltip="Contact"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </nav>
+
+
+    <!-- ═══════════════════════════════════════════
+         HERO SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-particles" id="particles"></div>
+        <div class="hero-content">
+            <p class="hero-greeting animate-on-scroll">Hello, I'm</p>
+            <h1 class="hero-name animate-on-scroll">Dheeraj Kumar</h1>
+            <div class="hero-title-wrapper animate-on-scroll">
+                <span class="hero-title">B.Tech Student</span>
+                <span class="hero-divider">|</span>
+                <span class="hero-title">Aspiring Software Engineer</span>
+            </div>
+            <p class="hero-tagline animate-on-scroll">Building the future, one line of code at a time.</p>
+            <div class="hero-buttons animate-on-scroll">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> View Projects
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-paper-plane"></i> Contact Me
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         ABOUT SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">
+                <span class="title-accent">01.</span> About Me
+            </h2>
+            <div class="about-grid">
+                <div class="about-image animate-on-scroll">
+                    <div class="image-frame">
+                        <img src="Dheeraj Kumar.jpeg" alt="Dheeraj Kumar" class="about-photo">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <p>
+                        I am a <strong>1st year B.Tech student</strong> with a deep passion for 
+                        <strong>technology, coding, and problem-solving</strong>. From the moment I wrote my 
+                        first program, I knew that software engineering was my calling.
+                    </p>
+                    <p>
+                        Currently, I am focused on building a strong foundation in 
+                        <strong>programming, web development, and core computer science concepts</strong>. 
+                        I believe in learning by building — every project I take on is a step closer to 
+                        becoming a well-rounded engineer.
+                    </p>
+                    <p>
+                        My goal is to leverage technology to solve real-world problems while continuously 
+                        growing as a developer. I am actively seeking opportunities to learn, collaborate, 
+                        and contribute to meaningful projects.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Problem Solver</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-book-open"></i>
+                            <span>Continuous Learner</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Player</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         SKILLS SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">
+                <span class="title-accent">02.</span> Skills & Technologies
+            </h2>
+            <div class="skills-categories">
+
+                <!-- Programming Languages -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="category-title">
+                        <i class="fas fa-terminal"></i> Programming Languages
+                    </h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item" data-skill="70">
+                            <div class="skill-info">
+                                <span>C / C++</span>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item" data-skill="65">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span class="skill-percent">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item" data-skill="55">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span class="skill-percent">55%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="category-title">
+                        <i class="fas fa-globe"></i> Web Development
+                    </h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item" data-skill="75">
+                            <div class="skill-info">
+                                <span>HTML5</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item" data-skill="65">
+                            <div class="skill-info">
+                                <span>CSS3</span>
+                                <span class="skill-percent">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item" data-skill="50">
+                            <div class="skill-info">
+                                <span>Responsive Design</span>
+                                <span class="skill-percent">50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i> Tools & Platforms
+                    </h3>
+                    <div class="skill-icons">
+                        <div class="tool-icon">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="tool-icon">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="tool-icon">
+                            <i class="fas fa-terminal"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="tool-icon">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Currently Learning -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="category-title">
+                        <i class="fas fa-seedling"></i> Currently Learning
+                    </h3>
+                    <div class="learning-tags">
+                        <span class="tag">Data Structures & Algorithms</span>
+                        <span class="tag">React.js</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Database Management</span>
+                        <span class="tag">Object-Oriented Programming</span>
+                        <span class="tag">Computer Networks</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         PROJECTS SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">
+                <span class="title-accent">03.</span> Projects
+            </h2>
+            <div class="projects-grid">
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fas fa-globe"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A modern, responsive portfolio website showcasing my skills, projects, and achievements with smooth animations and a royal theme.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fas fa-calculator"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Calculator App</h3>
+                        <p>A feature-rich calculator application with a clean UI, supporting basic and scientific operations built with vanilla JavaScript.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fas fa-tasks"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>To-Do List Application</h3>
+                        <p>A productivity-focused to-do list app with task categories, local storage persistence, and an intuitive drag-and-drop interface.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fab fa-python"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Python Automation Scripts</h3>
+                        <p>A collection of Python scripts for automating repetitive tasks, including file management, web scraping, and data processing.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Automation</span>
+                            <span>Scripting</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         EDUCATION SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">
+                <span class="title-accent">04.</span> Education
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2025 – Present</div>
+                        <h3>Bachelor of Technology (B.Tech)</h3>
+                        <p class="timeline-subtitle">Computer Science & Engineering</p>
+                        <p class="timeline-institution">
+                            <i class="fas fa-university"></i> Your College Name Here
+                        </p>
+                        <div class="timeline-details">
+                            <span><i class="fas fa-check-circle"></i> Data Structures & Algorithms</span>
+                            <span><i class="fas fa-check-circle"></i> Object-Oriented Programming</span>
+                            <span><i class="fas fa-check-circle"></i> Computer Networks</span>
+                            <span><i class="fas fa-check-circle"></i> Database Systems</span>
+                            <span><i class="fas fa-check-circle"></i> Web Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">Completed</div>
+                        <h3>Higher Secondary Education (12th)</h3>
+                        <p class="timeline-subtitle">Science Stream — PCM</p>
+                        <p class="timeline-institution">
+                            <i class="fas fa-school"></i> Your School Name Here
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         ACHIEVEMENTS SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="achievements" class="section achievements">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">
+                <span class="title-accent">05.</span> Achievements & Activities
+            </h2>
+            <div class="achievements-grid">
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Coding Practice</h3>
+                    <p>Regularly solving problems on competitive programming platforms to sharpen algorithmic thinking and data structure skills.</p>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Technical Learning</h3>
+                    <p>Completed online courses and tutorials on web development, Python programming, and version control with Git & GitHub.</p>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Tech Community</h3>
+                    <p>Active participant in college tech clubs and online developer communities, engaging in discussions and collaborative projects.</p>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Personal Projects</h3>
+                    <p>Built and deployed multiple personal projects to apply classroom knowledge to practical, real-world applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         CONTACT SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">
+                <span class="title-accent">06.</span> Get In Touch
+            </h2>
+            <p class="contact-subtitle animate-on-scroll">
+                I'm always open to new opportunities, collaborations, and conversations.
+                Feel free to reach out!
+            </p>
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:dheerajkumarthakur0007@gmail.com">dheerajkumarthakur0007@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-linkedin-in"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/dheerajthakur1725" target="_blank" rel="noopener noreferrer">linkedin.com/in/dheerajthakur1725</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/dheerajkr9" target="_blank" rel="noopener noreferrer">github.com/dheerajkr9</a>
+                    </div>
+                </div>
+                <form class="contact-form animate-on-scroll" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required autocomplete="name">
+                        <label for="name">Your Name</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required autocomplete="email">
+                        <label for="email">Your Email</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <label for="message">Your Message</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-socials">
+                <a href="https://github.com/dheerajkr9" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/dheerajthakur1725" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:dheerajkumarthakur0007@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p class="footer-text">
+                Designed & Built by <strong>Dheeraj Kumar</strong>
+            </p>
+            <p class="footer-copyright">
+                &copy; 2026 Dheeraj Kumar. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
